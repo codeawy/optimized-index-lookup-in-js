@@ -3,7 +3,7 @@
 import { fasterWay } from "@/utils/functions";
 
 export default function Home() {
-  const LIST_LENGTH = 10_000;
+  const LIST_LENGTH = 100;
   const list = Array.from({ length: LIST_LENGTH }, (_, index) => index);
 
   return (
